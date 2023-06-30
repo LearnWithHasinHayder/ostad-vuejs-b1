@@ -19,14 +19,70 @@
                 <li class="cursor-pointer hover:text-orange-500">Contact</li>
             </ul>
         </aside>
-        <main class="flex justify-center flex-1 ">
-            <div class="heading mt-10 flex items-center flex-col space-y-10">
-                <img class="w-60 rounded-full drop-shadow-lg" src="https://res.cloudinary.com/roxlox/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1688116314/Vue-Ostad/Blog-Project/clement-helardot-95YRwf6CNw8-unsplash_h2ijpe.webp" alt="">
+        <main class="flex flex-1 flex-col">
+            <div class="home mt-10 flex items-center flex-col space-y-10 hidden">
+                <img class="w-60 rounded-full drop-shadow-lg" src="//res.cloudinary.com/roxlox/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1688116314/Vue-Ostad/Blog-Project/clement-helardot-95YRwf6CNw8-unsplash_h2ijpe.webp" alt="">
                 <h1 class="text-6xl text-gray-800">Project X</h1>
                 <p class="text-center w-[600px] text-xl text-gray-700">Welcome to Project X, a cutting-edge blog built using the powerful Vue.js 3 framework. Project X combines the simplicity and elegance of Vue.js with its reactive and efficient nature, resulting in a fast and dynamic platform for sharing ideas, stories, and insights. </p>
                 <a href="https://github.com/LearnWithHasinHayder/ostad-vuejs-b1" target="_blank" class="bg-orange-500 hover:bg-orange-700 text-white  py-2 px-4 rounded">
                     Source Code
-                  </a>
+                </a>
+            </div>
+            <div class="about mt-10 flex items-center flex-col space-y-10 hidden">
+                <img class="w-60 rounded-full drop-shadow-lg" src="//res.cloudinary.com/roxlox/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1688114547/Vue-Ostad/Blog-Project/square-heading.webp" alt="">
+                <h1 class="text-6xl text-gray-800">About Us</h1>
+                <p class="text-center w-[600px] text-xl text-gray-700">At Project X, we are a passionate team of developers and designers dedicated to redefining the blogging experience. Our goal is to create a platform that seamlessly merges creativity, innovation, and user-centric design. With Vue.js 3 as our foundation, we strive to push the boundaries of what a blog can be. </p>
+            </div>
+            <div class="blog mt-10 flex items-center flex-col space-y-10 hidden">
+                <img class="w-60 rounded-full drop-shadow-lg" src="//res.cloudinary.com/roxlox/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1688119324/Vue-Ostad/Blog-Project/micah-boswell-00nHr1Lpq6w-unsplash_gielde.webp" alt="">
+                <h1 class="text-6xl text-gray-800">Project X Blog</h1>
+                <ul class="space-y-4 text-center font-semibold p-10">
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Unleashing Creativity: How Vue.js 3 Transforms the Blogging Experience </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Mastering the Art of Responsive Design: Enhancing User Experience on Project X </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>The Power of Vue.js 3: Exploring the Dynamic Capabilities of Project X </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Unleashing Creativity: How Vue.js 3 Transforms the Blogging Experience </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Boosting Engagement: Leveraging Vue.js 3 Features for Interactive Blogging on Project X </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Seamless Performance: Unraveling the Speed and Efficiency of Project X's Vue.js 3 Integration </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Crafting the Perfect User Interface: Design Principles Behind Project X's Intuitive Blogging Platform </h1>
+                    </li>
+                    <li class="cursor-pointer hover:text-orange-400">
+                        <h1>Driving Discoverability: SEO Best Practices for Maximizing Blog Reach on Project X </h1>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact mt-10 flex items-center flex-col space-y-10">
+                <img class="w-60 rounded-full drop-shadow-lg" src="//res.cloudinary.com/roxlox/image/upload/ar_1:1,c_fill,w_1000,x_1000,y_1000/v1688121709/Vue-Ostad/Blog-Project/annie-spratt-goholCAVTRs-unsplash_xn0fvm.webp" alt="">
+                <h1 class="text-6xl text-gray-800">Contact Us</h1>
+                <form action="#" class="w-[600px] flex flex-col space-y-4 pt-5">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-sm font-medium text-gray-900">Subject</label>
+                        <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your message</label>
+                        <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button href="https://github.com/LearnWithHasinHayder/ostad-vuejs-b1" target="_blank" class="bg-orange-500 hover:bg-orange-700 text-white  py-2 px-4 rounded">
+                        Send
+                    </button>
+                </form>
             </div>
         </main>
         <footer></footer>
